@@ -1,3 +1,4 @@
+/* google fonts styles */
 .inter-normal {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -11,6 +12,7 @@
     font-style: normal;
 }
 
+/* parent styles */
 body {
     width: 1440px;
     background-color: #F5F8FF;
@@ -113,7 +115,7 @@ nav {
     border-radius: 48px;
 }
 
-/* productive users section styles */
+/* productive users styles */
 
 .productive-container {
     padding: 50px 80px;
@@ -148,8 +150,7 @@ nav {
     color: rgba(0, 0, 0, 0.5);
 }
 
-
-/* user feedback section */
+/* user feedback styles */
 .feedback-section {
     padding: 0 150px 137px;
 }
@@ -226,7 +227,40 @@ nav {
     margin: 0;
 }
 
-/* let's get in touch section styles */
+/* ready to focus better styles */
+.focus-better-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 150px 92px;
+    padding: 71px 150px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+
+
+.focus-better-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+}
+
+.focus-better-subtitle{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.getfree-btn{
+    margin: 0 0 20px;
+}
+
+.focus-img{
+    border-radius: 48px;
+}
+
+/* let's get in touch styles */
 .getin-touch-container {
     display: flex;
     align-items: center;
@@ -268,7 +302,7 @@ nav {
     padding: 19px 101px;
 }
 
-/* footer section */
+/* footer styles */
 
 .footer-section {
     padding: 104px 455px;
