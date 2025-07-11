@@ -192,15 +192,31 @@ nav {
 
 /* footer section */
 
+.footer-section{
+    padding: 104px 455px;
+    background-color: #FFFFFF;
+}
+
+.website-name{
+    font-size: 100px;
+    font-weight: 900;
+    margin: 0;
+}
+
 .website-subtitle {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(137, 135, 161, 1);
+    margin-top: 8px;
+}
+
+.footer-nav{
+    margin-top: 20px;
 }
 
 .footer-nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 60px;
 }
 
 .footer-nav ul li {
@@ -209,19 +225,44 @@ nav {
 
 .footer-nav a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(137, 135, 161, 1);
+    margin: 0;
 }
 
 
 /* user feedback section */
 
+.feedback-section-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.feedback-content{
+    padding: 24px;
+}
 
 .feedback-icons{
     display: flex;
     align-items: center;
 }
 
+.feedback-titles{
+    margin: 24px 0;
+}
+
+.feedback-title{
+    color: rgba(30, 30, 30, 1);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.feedback-subtitle{
+    font-size: 16px;
+}
+
 .feedback-review{
     display: flex;
     align-items: center;
 }
+
